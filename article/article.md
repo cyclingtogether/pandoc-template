@@ -1,201 +1,61 @@
----
-abstract: 'All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.'
-author:
-  - '[Eleanor Roosevelt](eleanor.eoosevelt@domain.com)'
-  - '[John Peters Humphrey](jph@domain.com)'
-bibliography: references.bib # bibliography to use for resolving references
-csl: https://www.zotero.org/styles/chicago-note-bibliography
-date: 1 January 2023
-keywords: # list of keywords to be included in HTML, PDF, ODT, pptx, docx and AsciiDoc metadata; repeat as for author, above
-lang: en-US
-nocite: |
-  @brown2016
-references:
-  - id: unitednations1948
-    author:
-      - literal: United Nations
-    citation-key: unitednations1948
-    issued:
-      - year: 1948
-        month: 12
-    title: Universal Declaration of Human Rights
-    type: book
-subtitle: 'Subtitle'
-title: 'Title'
-toc: true
+# Intro
+### v.0.1
 
-# LaTeX
-abstract-title: 'Abstract'
-beamerarticle: # produce an article from Beamer slides
-classoption: # option for document class, e.g. oneside (a list).
-documentclass: scrartcl # document class: usually one of the standard classes, article, book, and report; the KOMA-Script equivalents, scrartcl, scrbook, and scrreprt, which default to smaller margins; or memoir
-geometry: # option for geometry package, e.g. margin=1in; repeat for multiple options:
-header-includes: # contents specified by -H/--include-in-header (may have multiple values)
-  - |
-    ```{=latex}
-    \raggedbottom % or \flushbottom
-    ```
-  - |
-    ```{=latex}
-    % keep figures where there are in the text
-    \usepackage{float} 
-    \floatplacement{figure}{H}
-    ```
-  - |
-    ```{=latex}
-    % add custom hyphentation rules
-    \hyphenation
-    {%
-      Hyphenate-me-like-this
-      Dontyoueverhyphenateme
-    }%
-    ```
-hyperrefoptions: # option for hyperref package, e.g. linktoc=all; repeat for multiple options:
-include-before: # contents specified by -B/--include-before-body (may have multiple values)
-include-after: # contents specified by -A/--include-after-body (may have multiple values)
-indent: # if true, pandoc will use document class settings for indentation (the default LaTeX template otherwise removes indentation and adds space between paragraphs)
-linestretch: # adjusts line spacing using the setspace package, e.g. 1.25, 1.5
-lof: true
-lot: true
-pagestyle: # control \pagestyle{}: the default article class supports plain (default), empty (no running heads or page numbers), and headings (section titles in running heads)
-papersize: # paper size, e.g. letter, a4
-secnumdepth: # numbering depth for sections (with --number-sections option or numbersections variable)
-thanks: 'Many thanks for the valuable comments.'
-toc-depth: 2
-toc-title: 'Contents'
+This is a **VEGETARIAN and GLUTENFREE Cookbook** for cyclingtravelers and other long-term travelers who dont like to cook.
 
-# Fonts
-fontenc: # allows font encoding to be specified through fontenc package (with pdflatex); default is T1 (see LaTeX font encodings guide)
-fontfamily: # font package for use with pdflatex: TeX Live includes many options, documented in the LaTeX Font Catalogue. The default is Latin Modern.
-fontfamilyoptions: # options for package used as fontfamily; repeat for multiple options.
-fontsize: # font size for body text. The standard classes allow 10pt, 11pt, and 12pt. To use another size, set documentclass to one of the KOMA-Script classes, such as scrartcl or scrbook.
-mainfont:
-sansfont:
-monofont:
-mathfont:
-mainfontoptions:
-sansfontoptions:
-monofontoptions:
-mathfontoptions:
+When we embarked on our journey of cycling the world, I had little knowledge about cooking. In fact, neither my partner nor I were fan of spending time in the kitchen, and leaving our normie lifestyle behind was part of the appeal of this trip.
 
-# Word
-category: # document category, included in docx and pptx metadata
-description: # document description, included in ODT, docx and pptx metadata. Some applications show this as Comments metadata.
-subject: # document subject, included in ODT, PDF, docx, EPUB, and pptx metadata
----
+Both my partner and I follow a strict gluten-free diet[^1]. During our travels, we both became vegetarian. 
+Our encounters with animals and witnessing the realities of large-scale meat production factories made consuming meat feel ethically wrong and groce. While everyone has their own preferences, please note that there won't be any recipes featuring products of dead animals.
 
-# Heading 1
+No more dirty kitchen, you are going to cook on very different places with a lot of new challenges...
 
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
+[^1]: Gluten-free, especialy wheat-free nuriture prevents us from having depressions!
 
-## Heading 2
+\newpage
 
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
+# Impressions
 
-### Heading 3
+![Cooking pancakes next to the road (Senegal)](../pics/001/Cooking_Senegal_02.jpg){ width=50% }
+![Cooking (Portugal](../pics/001/Cooking_Portugal_01.jpg){ width=50% }
 
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
+![Cooking on a parking lot (Bulgaria)](../pics/001/Cooking_Bulgaria_01.jpg){ width=50% }
+![Cooking with challenges Senegal.](../pics/001/Cooking_Senegal_01.jpg){ width=50% }
 
-#### Heading 4
+![Cooking on hotel roof (Iran)](../pics/001/Hotel_Roof_01.jpg){ width=50% }
+![Cooking in hotel bathroom](../pics/001/Hotel_Room_01.jpg){ width=50% }
 
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
 
-## Bold
+**Topleft:** Cooking pancakes next to the road in Senegal.
+**Topright:** Cooking in Portugal.
 
-**All human beings are born free and equal in dignity and rights.** All human beings are born free and equal in dignity and rights.All human beings are born free and equal in dignity and rights.All human beings are born free and equal in dignity and rights.
+**Middleleft:** Cooking on a parking lot in Bulgaria.
+**Middleright:** Cooking with spectactors in Westafrica.
 
-## Italic
+**Downleft:** Cooking on hotelroof in Iran.
+**Downright:** Boiling coffee in hotel bathroom (Iran).
+\newpage
 
-_All human beings are born free and equal in dignity and rights._ All human beings are born free and equal in dignity and rights.All human beings are born free and equal in dignity and rights.All human beings are born free and equal in dignity and rights.
+# Credit
 
-## Bold and italic
+It took me quite a while to collect all this information and compile it into this e-book. 
+Knowledge must be freely accessible to everyone, you can read and download this for free. However, it makes sense to donate some money (either cryptocurrency or fiat) as a sign of appreciation and respect.
 
-**_All human beings are born free and equal in dignity and rights._** All human beings are born free and equal in dignity and rights.All human beings are born free and equal in dignity and rights.All human beings are born free and equal in dignity and rights.
+--
 
-## Struck through
+Iban €: GB27 REVO 0099 7077 9493 72
+Swift: REVOGB21
 
-~~All human beings are born free and equal in dignity and rights.~~ All human beings are born free and equal in dignity and rights.All human beings are born free and equal in dignity and rights.All human beings are born free and equal in dignity and rights.
+Iban CHF/$: CH53 0630 0336 7809 4056 4 
+Swift: VABECH22
 
-## Numbered lists
+Revolut: @brandisbrand
 
-1. All human beings are born free and equal in dignity and rights.
-1. All human beings are born free and equal in dignity and rights.
-1. All human beings are born free and equal in dignity and rights.
-1. All human beings are born free and equal in dignity and rights.
+Paypal: boost@brandisbrandisbrand.com
 
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
+BTC: bc1qpfljs02fmad7575fs2skjz5u02plzqw0g3xt6d
 
-## Unnumbered lists
+ETH: 0x4a92a90C22b78Cbf8672a12A0BB88983bA77fe3a
 
-- All human beings are born free and equal in dignity and rights.
-  - All human beings are born free and equal in dignity and rights.
-- All human beings are born free and equal in dignity and rights.
+--
 
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
-
-## Mixed lists
-
-- All human beings are born free and equal in dignity and rights.
-  1. All human beings are born free and equal in dignity and rights.
-  2. All human beings are born free and equal in dignity and rights.
-- All human beings are born free and equal in dignity and rights.
-
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
-
-## Figures and captions
-
-![Eleanor Roosevelt hält die englische Version der Allgemeinen Erklärung der Menschenrechte (FDR Presidential Library & Museum, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons)](images/Eleanor_Roosevelt_and_Human_Rights_Declaration.jpeg)
-
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
-
-## Code
-
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
-
-```bash
-ping wikipedia.org
-```
-
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
-
-## URLs and email addresses
-
-[wikipedia.org](https://www.wikipedia.org/), [info@wikipedia.org](mailto:info@wikipedia.org). All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
-
-## Tables
-
-| column 1                                                        | column 2                                                        |
-| --------------------------------------------------------------- | --------------------------------------------------------------- |
-| All human beings are born free and equal in dignity and rights. | All human beings are born free and equal in dignity and rights. |
-| All human beings are born free and equal in dignity and rights. | All human beings are born free and equal in dignity and rights. |
-| All human beings are born free and equal in dignity and rights. | All human beings are born free and equal in dignity and rights. |
-| All human beings are born free and equal in dignity and rights. | All human beings are born free and equal in dignity and rights. |
-
-: Table caption
-
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
-
-## Footnotes
-
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.^[All human beings are born free and equal in dignity and rights.]
-
-## Quotes
-
-::: {lang=de}
-
-> Alle Menschen sind frei und gleich an Würde und Rechten geboren.
-
-:::
-
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.
-
-## Scientific citations
-
-> All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. @unitednations1948
-
-All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights. All human beings are born free and equal in dignity and rights.[@unitednations1948]
-
-# Bibliography
-
-::: {#refs}
-:::
